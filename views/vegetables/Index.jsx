@@ -10,7 +10,8 @@ function Index({ vegetables }) {
                     return (
                         <li key={i}>
                             <a href={`/vegetables/${i}`}>{vegetable.name}</a> is
-                            called {vegetable.scientific_name} <br></br>
+                            {vegetable.color} <br></br> and 
+                            {vegetable.readyToEat ? ` It is ready to eat `: ` It is not ready to eat`}
                             <br />
                         </li>
                     );
