@@ -4,7 +4,7 @@ import React from "react";
 function Index({ vegetables }) {
     return (
         <div>
-            <h1>Vegetables Index Page</h1>
+            <h1>Vegetables</h1>
             <ul>
                 {vegetables.map((vegetable, i) => {
                     return (
