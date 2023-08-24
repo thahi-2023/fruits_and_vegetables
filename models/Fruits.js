@@ -1,12 +1,12 @@
 const fruits = [
-    {
-        name:'apple',
+   {
+       name:'apple',
         color: 'red',
         readyToEat: true
     },
     {
-        name:'pear',
-        color: 'green',
+       name:'pear',
+       color: 'green',
         readyToEat: false
     },
     {
